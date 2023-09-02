@@ -8,8 +8,8 @@ body {
 }
 
 #Login {
-    height: 50%;
-    width: 40%;
+    height: 60%;
+    width: 50%;
     color: white;
     background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(4, 6, 133), rgb(4, 6, 133));
     border: 3px solid black;
