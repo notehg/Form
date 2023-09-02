@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-            <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                    <link rel="stylesheet" href="estilo.css">
-                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                <meta charset="UTF-8">
-                                    <meta name="description" content="projeto de login inicial de um site">
-                                        <meta name="keywords" content="user, senha and log">
-                                            <meta name="author" content="Felipe S. silva">
-                                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                                    <title>Login</title>
-    </head>
-    <body>
-            <div id="Login"> 
-                        <form method="post">
-                                        <h2>login</h2>
-                                                    <div class="mb-3" id="login-form">
-                                                                        <label  class="form-label">Usuário</label>
-                                                                                        <input class="form-control" name="x" type="text" placeholder="Nome de usuário ou Email"  >
-                                                    </div>
-
-
-                                                       
-                                                                <div class="mb-3">
-                                                                                    <label  class="form-label">Senha</label>
-                                                                                                    <input class="form-control" name="w"  type="password" placeholder="Senha"  >
-                                                                </div>
-
-                                                                            <br>
-                                                                                        <button type="submit">Logar</button>
-                                                                                                    <a href="creat.php">Criar conta</a>
-                                                </form>
-                                            </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto de login inicial de um site">
+    <meta name="keywords" content="usuário, senha e login">
+    <meta name="author" content="Felipe S. Silva">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="Login">
+        <form method="post">
+            <h2>Login</h2>
+            <div class="mb-3" id="login-form">
+                <label for="username" class="form-label">Usuário</label>
+                <input id="username" class="form-control" name="x" type="text" placeholder="Nome de usuário ou Email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+                <input id="password" class="form-control" name="w"  type="password" placeholder="Senha">
+            </div>
+            <br>
+            <button type="submit">Entrar</button>
+            <a href="criar_conta.php">Criar conta</a>
+        </form>
+    </div>
+</body>
 </html>
