@@ -1,6 +1,10 @@
 body {
     background-color: magenta;
-    margin: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #Login {
@@ -13,11 +17,15 @@ body {
     padding: 30px;
     text-align: center;
     padding-bottom: 45px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative; /* Alterado de "absolute" para "relative" */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#Login img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente a imagem */
 }
 
 input {
